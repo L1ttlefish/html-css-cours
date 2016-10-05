@@ -1,5 +1,29 @@
-Exercice 2
+<head>
+<meta charset="UTF-8">
+</head>
 
-Consignes :
-- Mettre en forme l'exercice 2
-- Créer ci-dessous un formulaire d'inscription contenant les champs : Prénom, nom, email, mot de passe, checkbox pour accepter un quelconque règlement et un bouton de validation.
+<h1> Exercice 2 </h1>
+
+<h2>Consignes :</h2>
+<ul>
+	<li> - Mettre en forme l'exercice 2</li>
+	<li> - Créer ci-dessous un formulaire d'inscription contenant les champs : Prénom, nom, email, mot de passe, checkbox pour accepter un quelconque règlement et un bouton de validation.</li>
+</ul>
+
+<form method="post" action="traitement.php">
+    <p>
+        <label>Votre prénom :</label> <input type="text" name="firstname" />
+    </p>
+	<p>
+        <label>Votre nom :</label> <input type="text" name="name" />
+    </p>
+	<p>
+        <label>Votre email :</label> <input type="email" name="email" />
+    </p>
+	<p>
+        <label>Votre mot de passe :</label> <input type="password" name="mdp" />
+    </p>
+	    <p>
+        <label>J'accepte vendre mon âme au créateur de cette page </label> <input type="checkbox" name="check" checked />
+    </p>
+	<input type="submit" value="Envoyer" />
